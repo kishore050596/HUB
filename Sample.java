@@ -22,6 +22,8 @@ public class Sample {
 		ages.remove(Integer.valueOf(26));
 		ages.add(2, 45);
 		ages.set(5, 100);
+		ages.add(500);
+		ages.add(1000);
 	
 		
 		for(int i=0;i<ages.size();i++)
